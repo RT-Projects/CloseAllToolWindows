@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "coding" ],
+  "identity": {
+    "internalName": "CloseAllToolWindows"
+  },
+  "overview": "README.md",
+  "publisher": "Timwi",
+  "repo": "https://github.com/RT-Projects/CloseAllToolWindows"
+}

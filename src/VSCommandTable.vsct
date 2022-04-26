@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="CloseAllToolWindows">
+    <Groups>
+      <Group guid="CloseAllToolWindows" id="CloseAllToolWindowsMenuGroup" priority="0x0100">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="CloseAllToolWindows" id="CloseAllToolWindows" priority="0x0100" type="Button">
+        <Parent guid="CloseAllToolWindows" id="CloseAllToolWindowsMenuGroup" />
+        <Strings>
+          <ButtonText>Close All Tool Windows</ButtonText>
+          <MenuText>Close &amp;All Tool Windows</MenuText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="CloseAllToolWindows" value="{10671c9b-91bc-867d-b9a3-4e96fc9bc5f2}">
+      <IDSymbol name="CloseAllToolWindowsMenuGroup" value="0x0001" />
+      <IDSymbol name="CloseAllToolWindows" value="0x0123" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
