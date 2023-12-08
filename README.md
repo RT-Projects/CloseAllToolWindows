@@ -4,8 +4,7 @@
 
 [![Build](https://github.com/RT-Projects/CloseAllToolWindows/actions/workflows/build.yaml/badge.svg)](https://github.com/RT-Projects/CloseAllToolWindows/actions/workflows/build.yaml)
 
-Download this extension from the [Visual Studio Marketplace][marketplace]
-or get the [CI build][vsixgallery].
+Download this extension from the [Visual Studio Marketplace][marketplace].
 
 --------------------------------------
 
