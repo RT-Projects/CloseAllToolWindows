@@ -1,6 +1,4 @@
-﻿[marketplace]: https://marketplace.visualstudio.com/items?itemName=RT.VS2022.CloseAllToolWindows
-[vsixgallery]: https://www.vsixgallery.com/extension/CloseAllToolWindows.e23ce90e-d1c2-4f65-b031-7262d59bfe0c
-[repo]: https://github.com/RT-Projects/CloseAllToolWindows
+﻿[marketplace]: https://marketplace.visualstudio.com/items?itemName=Timwi.RTVS2022CloseAllToolWindows
 
 # Close Tabs for Visual Studio
 
